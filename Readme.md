@@ -1,10 +1,10 @@
-Stock Market Prediction Using ARIMA and CNN-LSTM with Twitter Sentiment Analysis
+# Stock Market Prediction Using ARIMA and CNN-LSTM with Twitter Sentiment Analysis
 
-⚠️ Work in Progress
+## ⚠️ Work in Progress
 This project is currently under active development. Enhancements, refactoring, and additional experiments are in progress.
 The updated and finalized version will be uploaded once ready.
 
-Overview
+## Overview
 
 The stock market is a major focus for investors aiming to maximize potential profits. Consequently, interest in stock market prediction from both technical and financial perspectives continues to grow.
 
@@ -16,12 +16,10 @@ Traditional time series models (ARIMA)
 
 Deep learning architectures (CNN + LSTM)
 
-Twitter sentiment analysis
+Twitter sentiment analysis to predict stock prices more accurately.
 
-to predict stock prices more accurately.
-
-Background
-ARIMA (Autoregressive Integrated Moving Average)
+## Background
+### ARIMA (Autoregressive Integrated Moving Average)
 
 ARIMA is a statistical model used to analyze and forecast time series data.
 
@@ -145,7 +143,7 @@ Twitter Data
 
 Used for sentiment analysis
 
-Data Preprocessing
+## Data Preprocessing
 Text Cleaning Steps
 
 Convert text to lowercase
