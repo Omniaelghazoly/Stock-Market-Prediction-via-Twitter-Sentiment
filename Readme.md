@@ -30,120 +30,14 @@ It consists of three components:
 Auto-Regressive (AR)
 
 The current value depends on previous values in the time series:
-
-𝑌
-(
-𝑡
-)
-=
-𝛽
-1
-+
-𝜙
-1
-𝑌
-(
-𝑡
-−
-1
-)
-+
-𝜙
-2
-𝑌
-(
-𝑡
-−
-2
-)
-+
-⋯
-+
-𝜙
-𝑝
-𝑌
-(
-𝑡
-−
-𝑝
-)
-Y(t)=β
-1
-	​
-
-+ϕ
-1
-	​
-
-Y(t−1)+ϕ
-2
-	​
-
-Y(t−2)+⋯+ϕ
-p
-	​
-
-Y(t−p)
+Y(t)=β1​+ϕ1​Y(t−1)+ϕ2​Y(t−2)+⋯+ϕp​Y(t−p)
 
 p: lag order
 
 Moving Average (MA)
 
 Models the effect of past errors on current values:
-
-𝑌
-(
-𝑡
-)
-=
-𝛽
-2
-+
-𝜃
-1
-𝜀
-(
-𝑡
-−
-1
-)
-+
-𝜃
-2
-𝜀
-(
-𝑡
-−
-2
-)
-+
-⋯
-+
-𝜃
-𝑞
-𝜀
-(
-𝑡
-−
-𝑞
-)
-Y(t)=β
-2
-	​
-
-+θ
-1
-	​
-
-ε(t−1)+θ
-2
-	​
-
-ε(t−2)+⋯+θ
-q
-	​
-
-ε(t−q)
+Y(t)=β2​+θ1​ε(t−1)+θ2​ε(t−2)+⋯+θq​ε(t−q)
 
 q: moving average order
 
@@ -205,38 +99,38 @@ Learns from both forward and backward directions
 
 Uses complete sequence information
 
-Methodology
-Project Pipeline
+## Methodology
+### Project Pipeline
 
 The project consists of the following stages:
 
-Importing libraries
+- Importing libraries
 
-Loading stock and Twitter data
+- Loading stock and Twitter data
 
-Data preprocessing
+- Data preprocessing
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 
-Twitter sentiment analysis
+- Twitter sentiment analysis
 
-Merging sentiment with stock data
+- Merging sentiment with stock data
 
-Time series modeling
+- Time series modeling
 
-ARIMA baseline model
+- ARIMA baseline model
 
-CNN–BiLSTM deep learning model
+- CNN–BiLSTM deep learning model
 
-Model comparison and evaluation
+- Model comparison and evaluation
 
-Real-time evaluation
+- Real-time evaluation
 
-Clustering analysis
+- Clustering analysis
 
-Classification tasks
+- Classification tasks
 
-Dataset Collection
+## Dataset Collection
 Stock Market Data
 
 Companies: FAANG (Meta, Apple, Netflix, Amazon, Google)
